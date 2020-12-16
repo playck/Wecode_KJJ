@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17기_김종진 자기소개</title>
+    <meta name="author" content="Jongjin">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+</head>
+<body>
+    <nav id="navbar">
+        <ul class="navbar__menu">
+            <li>Home</li>
+            <li>About</li>
+            <li>Wecode</li>
+            <li>Game</li>
+            <li>contact</li>
+        </ul>
+    </nav>
+    <!--Home-->
+    <section id="home">
+        <img src="종진.jpg" alt="김종진" class="home__avatar"/>
+        <h1 class="home__title">안녕하세요, 김종진입니다.</h1>
+        <h2>wecode_17기로서 코딩을 배워보려고 합니다.</h2>
+    </section>
+    <!-- About me -->
+    <section id="about" class="section section__container">
+        <h1>About me</h1>
+        <div class="about__me">
+            <div class="Me">
+                <div class="me__icon">
+                    <i class="fas fa-user-alt"></i>
+                </div>
+                <p>이름: 김종진</p>
+                <p>나이: 30</p>
+                <p>사는 곳: 서울</p>
+            </div>
+            <div class="Me">
+                <div class="me__icon">
+                    <i class="fas fa-pencil-alt"></i>
+                </div>
+                <p>전공: 중어중문학과</p>
+                <p>하는 일: 여행 MD (퇴사)</p>
+            </div>
+            <div class="Me">
+                <div class="me__icon">
+                    <i class="fas fa-dice-d6"></i>
+                </div>
+                <p>취미: 운동, 게임, 넷플릭스</p>
+            </div>
+        </div>        
+    </section>
+    <!-- Goal -->
+    <section id="goal" class="section">
+        <h1>Wecode</h1>
+        <div class="question__box">
+            <div class="question__list">
+                <div class="question">
+                    <p>Wecode의 지원하게 된 동기는?</p>
+                </div>
+                <div class="answer">
+                    <p>여행 MD로 일할 때 우연히 데이터 관련하여 코딩을 접해보게 되었습니다.
+                       그 때 코딩의 흥미를 느끼게 되었고 조금씩 배워보면서 이 쪽 관련일을 해보고 싶었습니다.
+                       웹 개발을 좀 더 제대로 그리고 재미있게 배우고 싶어서 Wecode에 참여하게 되었습니다.
+                    </p>
+                </div>
+                <div class="question">
+                    <p>Wecode에서 배우고 싶은 것은?</p>
+                </div>
+                <div class="answer">
+                    <p>지금은 프론트엔드에 관심이 많습니다. 특히 자바스크립트를 제대로 배워보고 싶습니다. 
+                       아직은 어려운게 너무 많아서요. ㅠㅠ 또 협업프로젝트도 해보면서 실력을 키우고 싶습니다.                   
+                    </p>
+                </div>
+                <div class="question">
+                    <p>어떤 개발자가 되고 싶은지?</p>
+                </div>
+                <div class="answer">
+                    <p>좋은 서비스를 만들고 지속적으로 발전시킬 수 있는 개발자<br/>
+                       트렌드에 뒤쳐지지 않는 개발자
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Game -->
+    <section id="game" class="section">
+        <h1>Game</h1>
+        <div class="game__field">
+            <h1>숫자야구 게임<span><i class="fas fa-baseball-ball"></i></span></h1>
+            <h2>결과: <span class="result"></span></h2>
+            <h2>남은 기회: <span class="turn"></span></h2>
+            <p>숫자 4자리를 입력하세요. 기회는 총 3번입니다.</p>
+            <form>
+                <input type="text" minlength="4" maxlength="4">
+                <button> 입력 </button>
+            </form>
+            <button class="start"> 게임시작 </button>
+            <div class="list"></div>
+        </div>
+    </section>
+    <!-- info -->
+    <section id="info" class="section">
+        <h1>Contact Me</h1>
+        <div class="contact__links">
+            <i class="fas fa-phone-alt"></i>
+            <i class="fas fa-envelope"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-github"></i>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
